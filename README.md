@@ -1,3 +1,7 @@
+# Reset failed OSDs
+
+Sometimes OSDs fail because of disk replacement or whatever.
+
 1. Check carefully which OSD is failed:
 
 ```bash
