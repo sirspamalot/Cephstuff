@@ -4,6 +4,7 @@ Sometimes OSDs fail because of disk replacement or whatever.
 Follow this procedure to reset the failed OSD:
 
 1. Check carefully which OSD is failed:
+
 $ ceph osd tree down
 
 2. Remove this OSD from Ceph:
